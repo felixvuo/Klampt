@@ -13,7 +13,7 @@ ODECONFIG += --disable-threading-intf
 UNAME = $(shell uname)
 
 unpack-deps:
-	git clone https://github.com/krishauser/KrisLibrary
+	git clone https://github.com/felixvuo/KrisLibrary -b fix/ubuntu24-ompl
 	cd KrisLibrary
 	tar xvzf ode-0.14.tar.gz
 	tar xvzf glui-2.36.tgz
